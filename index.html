@@ -269,7 +269,7 @@
                 </div>
               </div>
             </div>
-          </div>
+        </div>
     </div>
 
 
@@ -363,39 +363,44 @@
     
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <main class="d-flex align-content-center justify-content-center py-5 bg-light">
-                <form>
-                    <a class="navbar-brand fw-bold text-info" href="#">
-                        <img src="asset/tour.png" alt="" width="30" height="24" class="d-inline-block align-text-top mb-4">
-                        ZenithTours
-                    </a>
-                    <h3 class="mb-3 fw-bold">Kindly place your Bookings</h3>
-              
-                  <div class="form-floating mb-2">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
-                  </div>
+      <div class="modal-dialog d-flex align-content-center justify-content-center bg-light">
+        <div class="modal-content">
+          <div class="modal-header d-flex align-content-center justify-content-center">
+            <a class="navbar-brand fw-bold text-info" href="">
+              <img src="asset/tour.png" alt="" width="30" height="24" class="d-inline-block align-text-top mb-4">
+              ZenithTours
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                <h3 class="mb-3 fw-bold">Kindly place your Bookings</h3>
+          
+              <div class="form-floating mb-2">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
 
-                  <div class="form-floating mb-2">
-                    <input type="number" class="form-control" id="floatingNumber" placeholder="Phone Number">
-                    <label for="floatingNumber">Phone Number</label>
-                  </div>
+              <div class="form-floating mb-2">
+                <input type="number" class="form-control" id="floatingNumber" placeholder="Phone Number">
+                <label for="floatingNumber">Phone Number</label>
+              </div>
 
-                  <div class="form-floating mb-2">
-                    <input type="text" class="form-control" id="floatingText" placeholder="Message">
-                    <label for="floatingText">Your Message</label>
-                  </div>
-              
-                  <div class="checkbox mb-3">
-                    <label>
-                      <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                  </div>
-                  <button class="w-100 btn btn-lg btn-info" type="submit">Book Now</button>
-                </form>
-            </main>
+              <div class="form-floating mb-2">
+                <input type="text" class="form-control" id="floatingText" placeholder="Message">
+                <label for="floatingText">Your Message</label>
+              </div>
+          
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-info" type="submit">Book Now</button>
+              </form>
+          </div>
         </div>
+      </div>
     </div>
 
     <footer class="container mt-5 pt-4">
