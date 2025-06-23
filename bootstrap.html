@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="asset/tour.png" type="image/x-icon">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-info" href="#">
+                <img src="asset/tour.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                ZenithTours
+            </a>
+          <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tours
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Family Tours</a></li>
+                  <li><a class="dropdown-item" href="#">Honeymoon Tours</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Sport Tours</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="#" tabindex="-1" aria-disabled="true">Product</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-info" type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide vh-100" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100 position-relative">
+            <img src="asset/london2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+            <div class="carousel-caption top-50">
+                <h1 class="fw-bolder">Great Destinations You'd Love</h1>
+                <p>Let us take you to the best Destination in the world at the cheapest rate.</p>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="asset/new-york.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+            <div class="carousel-caption top-50">
+              <h1 class="fw-bolder">Student Educational Tour</h1>
+              <p>Let your kids join several other children for the best Educational Tour within and outside Nigeria</p>
+            </div>
+          </div>
+          <div class="carousel-item h-100">
+            <img src="asset/lagos2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+            <div class="carousel-caption top-50">
+              <h1 class="fw-bolder">We offer Professional Services</h1>
+              <p>We have wide network of professional partners across the world.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container mt-5 justify-content-center">
+        <div class="text-center">
+            <div class="row py-lg-4">
+              <div class="col-lg-9 mx-auto">
+                <h1 class="fw-bold">Our Professional Services</h1>
+                <p class="lead text-muted">Based on our wide network of professional partners across the world, vast experience, highly trained staff with deep knowledge and high level of expertise in educational tourism, we organize interesting tour package for different global destinations in all the six continents.</p>
+              </div>
+            </div>
+        </div>
+          
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <img src="asset/services1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-info">Holiday Packages</h5>
+                    <p class="card-text">Highly interactive and fun-filled Tours</p>
+                    <a href="#" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <img src="asset/services2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-info">Ticketing and Reservation</h5>
+                    <p class="card-text">Tickets for Local and International Flights</p>
+                    <a href="#" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <img src="asset/services3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-info">Travel Insurance</h5>
+                    <p class="card-text">Insurance policy for effective protection</p>
+                    <a href="#" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <img src="asset/services4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-info">Visa Counseling</h5>
+                    <p class="card-text">Providing adequate professional guide</p>
+                    <a href="#" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <img src="asset/services5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-info">Hotel Reservation</h5>
+                    <p class="card-text">Hotel reservations that fits budget</p>
+                    <a href="#" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                    <img src="asset/services6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title text-info">Conference & Fairs</h5>
+                    <p class="card-text">Branded and inspirational packaging</p>
+                    <a href="#" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="hanging-icons">
+        <div class="text-center">
+            <div class="row py-lg-4">
+              <div class="col-lg-9 mx-auto">
+                <h1 class="fw-bold">Why Choose Zenith Tours</h1>
+                <p class="lead text-muted">There are numerous reasons several schools and other corporate bodies chose Zenith Travels and Tours and have never regretted their decision:</p>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="bg-info rounded p-4">
+              <h2>International Partnership</h2>
+              <p>Zenith Tours Ltd is the Official Country Office and Exclusive Authorized Agent in Nigeria for Kingswood Education & Learning Group and Camp Beaumont and more.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="bg-info rounded p-4">
+              <h2>Global Tour Packages</h2>
+              <p>Our products are curriculum-based vis-a-vis other tour organizers. Our products and packaging goes beyond mere sight-seeing and we ensure all our student educational tour products are global brands.</p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="bg-info rounded p-4">
+              <h2>Learning Outside the Classroom</h2>
+              <p>Zenith Tours Ltd is the first and the only company in the sub Sahara Africa applying the principle of Learning Outside the Classroom to its student.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="text-center">
+            <div class="row py-lg-4">
+              <div class="col-lg-9 mx-auto">
+                <h1 class="fw-bold">Featured Tours Prices</h1>
+                <p class="lead text-muted">At Zenith Tours we provide the best value holidays to the world’s most incredible destinations, so you can make lifelong memories and save at the same time.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="row mb-3 text-center">
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 bg-secondary">
+                  <h4 class="my-0 fw-normal text-white">Silver</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$2,950<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>3 Nights</li>
+                    <li>2 Adults & 2 Children</li>
+                    <li>Guest Room Pool View</li>
+                    <li>No Ultra All-Inclusive</li>
+                    <li>No Return Ticket</li>
+                    <li>Economy Flights Included</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-secondary">Book Your Slot</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 bg-warning">
+                  <h4 class="my-0 fw-normal">Gold</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$3,500<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>6 Nights</li>
+                    <li>2 Adults & 2 Children</li>
+                    <li>Family Room Sea View</li>
+                    <li>No Ultra All-Inclusive</li>
+                    <li>Return Ticket Available</li>
+                    <li>Economy Flights Included</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-warning">Book Your Slot</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-3">
+              <div class="card mb-4 rounded-3 shadow-sm border-info">
+                <div class="card-header py-3 text-white bg-info border-info">
+                  <h4 class="my-0 fw-normal">Premium</h4>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">$4,050<small class="text-muted fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li class="text-danger">10 Nights</li>
+                    <li>5 Adults & 5 Children</li>
+                    <li>Bay Club Sea View Room</li>
+                    <li class="text-danger">Ultra All-Inclusive</li>
+                    <li>Return Ticket Available</li>
+                    <li class="text-danger">Business Flights Included</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-info">Book Your Slot</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="container accordion mt-5" id="accordionExample">
+        <div class="text-center">
+            <div class="row py-lg-4">
+              <div class="col-lg-9 mx-auto">
+                <h1 class="fw-bold">Frequently Asked Questions</h1>
+                <p class="lead text-muted">Working with a travel agent often brings up a lot of questions—and we’re here to answer them! Below, we’ve compiled some of the most common questions we get about booking your dream vacation with us.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Why should I book with you instead of an online booking site or directly with a resort?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-info">
+                Booking with us means having a dedicated travel expert by your side every step of the way—before, during, and after your trip.
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Will I pay more for my vacation if I book through you instead of an online booking site?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-info">
+                Not at all! We have access to the same pricing as online booking sites and can price-match when comparing identical options. In many cases, we can even secure exclusive discounts or promotional offers that aren’t available to the general public.
+                <br><br>
+                Booking with us means you get competitive pricing plus the added value of personalized service, expert advice, and potential perks—all at no extra cost to you!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Do I have to pay you upfront in full for my vacation?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-info">
+                No, you don’t! The deposit requirements are determined by the resorts or tour operators we work with and vary based on your chosen package and travel dates.
+                <br><br>
+                Your deposit is made directly to the resort or tour operator through Susan Peavey Travel—we never charge your credit card ourselves. This ensures your payment is applied directly to your vacation at the time of booking.
+                <br><br>
+                Most packages require the balance to be paid 45 days before your arrival, and again, this payment goes directly to the supplier. It’s all designed to keep the process simple, secure, and transparent for you!
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What guarantees do I have that my vacation is secure when booking with you?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-info">
+                We understand your concerns, but with us, there’s no risk of losing your vacation. Here’s why:
+                <br><br>
+                You don’t pay Zenith Tours directly for your trip. Instead, when you book with us, we use your credit card information to secure your reservations directly with the resorts, airlines, or other vacation vendors. They charge your card, not us.
+                <br><br>
+                This ensures every payment you make is applied directly to your reservation, giving you peace of mind and full transparency throughout the booking process. Your dream vacation is safe with us!
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <div class="mt-5 bg-warning">
+        <section class="text-center container p-5">
+            <div class="row py-lg-5">
+              <div class="col-lg-9 mx-auto">
+                <h1 class="fw-bold">Ready To Proceed?</h1>
+                <p class="lead">Join our Special Tour this Month and Enjoy Amazing Discounts</p>
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Book A Slot Now
+                </button>
+              </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <main class="d-flex align-content-center justify-content-center py-5 bg-light">
+                <form>
+                    <a class="navbar-brand fw-bold text-info" href="#">
+                        <img src="asset/tour.png" alt="" width="30" height="24" class="d-inline-block align-text-top mb-4">
+                        ZenithTours
+                    </a>
+                    <h3 class="mb-3 fw-bold">Kindly place your Bookings</h3>
+              
+                  <div class="form-floating mb-2">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+
+                  <div class="form-floating mb-2">
+                    <input type="number" class="form-control" id="floatingNumber" placeholder="Phone Number">
+                    <label for="floatingNumber">Phone Number</label>
+                  </div>
+
+                  <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="floatingText" placeholder="Message">
+                    <label for="floatingText">Your Message</label>
+                  </div>
+              
+                  <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-info" type="submit">Book Now</button>
+                </form>
+            </main>
+        </div>
+    </div>
+
+    <footer class="container mt-5 pt-4">
+        <div class="row">
+          <div class="col-6 col-lg-3 col-md-6 mb-3">
+              <a class="navbar-brand fw-bold text-info" href="#">
+                  <img src="asset/tour.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                  ZenithTours
+                </a>
+            <small class="d-block mb-3 text-muted">&copy; 2017–2025</small>
+          </div>
+
+          <div class="col-6 col-lg-3 col-md-6 mb-3">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-3 col-md-6 mb-3">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-3 col-md-6 mb-3">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
